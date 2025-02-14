@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">ABOUT ME</div>
+        <div class="nav-items">
+            <a type="ABOUT ME" href="index.html">AboutME</a>
+            <a type="UNIVERSITY" href="myUniversity.html">UNIVERSITY</a>
+            <a type="RESUME" href="Resume.html">RESUME</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-container anim"> <!-- Added anim class -->
+            <br>
+            <h1>About ME</h1> <br>
+            <ol>
+                <li>I'm Ecuadorian</li>
+                <li>Grew up in Queens NYC</li>
+                <li>Moved to Jersey City at 11</li>
+            </ol>
+        </div>
+        <div class="column-right">
+            <img src="Webpage/chill guy.webp" alt="illustration" class="hero-image anim"> <!-- Added anim class -->
+        </div>
+    </section>
+</body>
+
+</html>
