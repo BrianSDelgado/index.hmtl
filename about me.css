@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw -1300px)/2);
+}
+
+.logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+ol {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.hero {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem calc((100vw -1300px)/2);
+}
+
+/* Make the About ME text align to the right */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* Align text to the right */
+    max-width: 50%;
+    /* Limit the width to avoid taking up too much space */
+    padding: 2rem;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    /* Ensure the image scales correctly */
+}
+
+/* Animation class */
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+/* Keyframes for moveup animation */
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
